@@ -1,12 +1,10 @@
-# Project 2 - *Flixster*
+# Project *Flixster*
 
-Submitted by: **Mohamed Abdilahi**
+By: **Mohamed Abdilahi**
 
-**Flixster** allows users to discover new movies, read general movie description, and see how popular it is among other users with popularity trackers and such.
+**Flixster** allows users to discover new movies, read general movie description, and see how popular it is among other users with popularity trackers and other metadata. In hopes to emulate some of Flixster's functionality I first used hardcoded Movie data models to display mocked data using this [JSON](https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed) to get movie informations. After learning how to use Postman, a popular network debugging tool, I then added the ability to fetch real data from a third party server! Using URLSession, I fetched movie data from TMDB using an API key. I also added from earlier rendition of this project a different view for just the posters that when pressed will again give more info about the movie.
 
-Time spent: **10** hours spent in total
-
-## Required Features
+## Features
 
 The following **required** functionality is completed:
 
@@ -15,40 +13,3 @@ The following **required** functionality is completed:
   - [X] Different Phone Size
 - [X] Displays at least 5 different movies in a table view
 - [X] Can tap into detail view of movie with a full description, backdrop image, and title
- 
-The following **optional** features are implemented:
-
-- [ ] Unique UI changes, such as background, font/color changes, etc.
-- [ ] User implements a collection view
-- [ ] User implemenets tab bar controller with at least two screens
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
-## Video Walkthrough
-Here's a walkthrough of implemented user stories:
-
-https://submissions.us-east-1.linodeobjects.com/ios102/9GPJVcsv.gif
-
-GIF created with LICEcap
-
-## Notes
-
-Describe any challenges encountered while building the app.
-
-## License
-
-    Copyright [yyyy] [name of copyright owner]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
